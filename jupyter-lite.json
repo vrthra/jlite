@@ -120,7 +120,7 @@
     "themesUrl": "./lab/build/themes",
     "litePluginSettings": {
       "@jupyterlite/pyolite-kernel-extension:kernel": {
-        "pyodideUrl": "/resources/pyodide/full/3.9/pyodide.js"
+        "pyodideUrl": "/jlite/resources/pyodide/full/3.9/pyodide.js"
       }
     }
   },
