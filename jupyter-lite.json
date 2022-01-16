@@ -117,7 +117,12 @@
     "fullStaticUrl": "./lab/build",
     "mathjaxConfig": "TeX-AMS_CHTML-full,Safe",
     "settingsUrl": "./lab/build/schemas",
-    "themesUrl": "./lab/build/themes"
+    "themesUrl": "./lab/build/themes",
+    "litePluginSettings": {
+      "@jupyterlite/pyolite-kernel-extension:kernel": {
+        "pyodideUrl": "/resources/pyodide/full/3.9/pyodide.js"
+      }
+    }
   },
   "jupyter-lite-schema-version": 0
 }
